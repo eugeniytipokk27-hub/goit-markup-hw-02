@@ -6,6 +6,20 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/main.css" />
   </head>
   <body>
     <header id="header">
@@ -13,19 +27,22 @@
 
       <!-- кнопка WebStudio-->
 
-      <a href="./index.html">WebStudio</a>
+      <a class="header link WebStudio" href="./index.html">
+        <span class="header link web">Web</span
+        ><span class="header link studio">Studio</span>
+      </a>
 
       <!--Навігація в хедері-->
       <nav>
         <ul>
           <li>
-            <a href="#features">Features</a>
+            <a class="header link features" href="#features">Features</a>
           </li>
           <li>
-            <a href="#team">Team</a>
+            <a class="header link team" href="#team">Team</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a class="header link portfolio" href="#portfolio">Portfolio</a>
           </li>
         </ul>
       </nav>
@@ -34,10 +51,14 @@
       <address>
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header nav mailto" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="header nav tel" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -88,7 +109,7 @@
         <!--Team-->
         <h2>Our Team</h2>
         <ul>
-          <li>
+          <li class="photo team">
             <img
               src="./images/team-1.jpg"
               alt="Mark Guerrero"
@@ -98,7 +119,7 @@
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="photo team">
             <img
               src="./images/team-2.jpg"
               alt="Tom Ford"
@@ -108,7 +129,7 @@
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="photo team">
             <img
               src="./images/team-3.png"
               alt="Camila Garcia"
@@ -118,7 +139,7 @@
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="photo team">
             <img
               src="./images/team-4.jpg"
               alt="Daniel Wilson"
@@ -130,11 +151,74 @@
           </li>
         </ul>
       </section>
+      <section id="Portfolio">
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li class="photo portfolio">
+            <img
+              src="./images/portfolio (1).svg"
+              alt=""
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li class="photo portfolio">
+            <img src="./images/portfolio.svg" alt="" width="360" height="300" />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="photo portfolio">
+            <img
+              src="./images/portfolio (2).svg"
+              alt=""
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li class="photo portfolio">
+            <img
+              src="./images/portfolio (3).svg"
+              alt=""
+              width="360"
+              height="300"
+            />
+            <h3>App</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="photo portfolio">
+            <img
+              src="./images/portfolio (4).svg"
+              alt=""
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li class="photo portfolio">
+            <img
+              src="./images/portfolio (5).svg"
+              alt=""
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer id="footer">
       <!-- Футер -->
-      <a href="./index.html">WebStudio</a>
+      <a class="footer link WebStudio" href="./index.html">
+        <span class="footer link web">Web</span
+        ><span class="footer link studio">Studio</span>
+      </a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
