@@ -3,9 +3,27 @@
 }
 
 .footer-logo {
-  /* типографіка логотипа */
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo .web {
+  color: #4d5ae5;
+}
+
+.footer-logo .studio {
+  color: #f4f4fd;
 }
 
 .footer-text {
-  /* типографіка тексту */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
