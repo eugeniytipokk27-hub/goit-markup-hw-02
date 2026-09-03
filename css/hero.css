@@ -1,14 +1,14 @@
-button {
+.hero-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
-#hero {
+.hero {
   background: #2e2f42;
 }
 h1 {
@@ -19,4 +19,16 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }

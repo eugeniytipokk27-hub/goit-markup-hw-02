@@ -19,7 +19,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header id="header">
@@ -27,7 +33,7 @@
 
       <!-- кнопка WebStudio-->
 
-      <a class="header link WebStudio" href="./index.html">
+      <a class="header link webstudio" href="./index.html">
         <span class="header link web">Web</span
         ><span class="header link studio">Studio</span>
       </a>
@@ -67,155 +73,152 @@
     <main>
       <!-- Основний контент -->
       <!--Hero-->
-      <section id="hero">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section id="hero" class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
-      <section id="features">
+      <section id="features" class="features">
         <!--Features-->
-        <h2>Our Features</h2>
+        <h2 class="features-title">Our Features</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="features-item-title">Strategy</h3>
+            <p class="features-item-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="features-item-title">Punctuality</h3>
+            <p class="features-item-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="features-item-title">Diligence</h3>
+            <p class="features-item-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="features-item-title">Technologies</h3>
+            <p class="features-item-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section id="team">
+
+      <section id="team" class="team">
         <!--Team-->
-        <h2>Our Team</h2>
-        <ul>
-          <li class="photo team">
+        <h2 class="team-title">Our Team</h2>
+        <ul class="team-list">
+          <li class="team-card">
             <img
               src="./images/team-1.jpg"
               alt="Mark Guerrero"
               height="260"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-name">Mark Guerrero</h3>
+            <p class="team-position">Product Designer</p>
           </li>
-          <li class="photo team">
+
+          <li class="team-card">
             <img
               src="./images/team-2.jpg"
               alt="Tom Ford"
               height="260"
               width="264"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-name">Tom Ford</h3>
+            <p class="team-position">Frontend Developer</p>
           </li>
-          <li class="photo team">
+
+          <li class="team-card">
             <img
               src="./images/team-3.png"
               alt="Camila Garcia"
               height="260"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team-name">Camila Garcia</h3>
+            <p class="team-position">Marketing</p>
           </li>
-          <li class="photo team">
+
+          <li class="team-card">
             <img
               src="./images/team-4.jpg"
               alt="Daniel Wilson"
               height="260"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="team-name">Daniel Wilson</h3>
+            <p class="team-position">UI Designer</p>
           </li>
         </ul>
       </section>
-      <section id="Portfolio">
-        <h2>Our Portfolio</h2>
-        <ul>
-          <li class="photo portfolio">
+
+      <section id="portfolio" class="portfolio">
+        <!-- Portfolio -->
+        <h2 class="portfolio-title">Our Portfolio</h2>
+
+        <ul class="portfolio-list">
+          <li class="portfolio-card">
             <img
-              src="./images/portfolio (1).svg"
-              alt=""
+              src="./images/portfolio-1.jpg"
+              alt="Banking App"
               width="360"
               height="300"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="portfolio-name">Banking App</h3>
+            <p class="portfolio-category">App</p>
           </li>
-          <li class="photo portfolio">
-            <img src="./images/portfolio.svg" alt="" width="360" height="300" />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
-          </li>
-          <li class="photo portfolio">
+
+          <li class="portfolio-card">
             <img
-              src="./images/portfolio (2).svg"
-              alt=""
+              src="./images/portfolio-2.jpg"
+              alt="Cashless Payment"
               width="360"
               height="300"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="portfolio-name">Cashless Payment</h3>
+            <p class="portfolio-category">Marketing</p>
           </li>
-          <li class="photo portfolio">
+
+          <li class="portfolio-card">
             <img
-              src="./images/portfolio (3).svg"
-              alt=""
+              src="./images/portfolio-3.jpg"
+              alt="Meditation App"
               width="360"
               height="300"
             />
-            <h3>App</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-name">Meditation App</h3>
+            <p class="portfolio-category">App</p>
           </li>
-          <li class="photo portfolio">
+
+          <li class="portfolio-card">
             <img
-              src="./images/portfolio (4).svg"
-              alt=""
+              src="./images/portfolio-4.jpg"
+              alt="Taxi Service"
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="portfolio-name">Taxi Service</h3>
+            <p class="portfolio-category">Marketing</p>
           </li>
-          <li class="photo portfolio">
-            <img
-              src="./images/portfolio (5).svg"
-              alt=""
-              width="360"
-              height="300"
-            />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
-          </li>
+
+          <!-- інші картки -->
         </ul>
       </section>
     </main>
 
-    <footer id="footer">
+    <footer id="footer" class="footer">
       <!-- Футер -->
-      <a class="footer link WebStudio" href="./index.html">
+      <a class="footer link webstudio" href="./index.html">
         <span class="footer link web">Web</span
         ><span class="footer link studio">Studio</span>
       </a>
